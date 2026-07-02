@@ -1,0 +1,20 @@
+# 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# PyCharm 项目配置
+.idea/
+
+# 生成的图表
+# 忽略 plots 文件夹里的所有文件，但不忽略文件夹本身
+plots/*
+# 下面两句把你想要展示的图片从忽略列表中排除
+!plots/折线_tmax.png
+!plots/箱线_rain.png
+
+# 原始数据
+水文数据.xls
+*.xlsx
